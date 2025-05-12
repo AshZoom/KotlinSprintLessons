@@ -37,6 +37,7 @@ fun main() {
     val orbit:Int=327000
     println("$distance $age $partOfDay  $seconds $partOfYear $orbit")
 
+
     //Задача 5
     val secondsTotal=6480
     val hoursInSpace=secondsTotal/3600
