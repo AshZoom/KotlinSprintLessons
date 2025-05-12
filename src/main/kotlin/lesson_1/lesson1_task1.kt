@@ -27,4 +27,23 @@ fun main() {
     minute=55
     println("Посадка:")
     println("%02d:%02d".format(hour,minute))
+
+    //Задача 4
+    val distance: Long =40868600000
+    val age:Byte=27
+    val partOfDay:Float=0.075f
+    val seconds:Short=6480
+    val partOfYear:Double= 2.0547945220547944E-4
+    val orbit:Int=327000
+    println("$distance $age $partOfDay  $seconds $partOfYear $orbit")
+
+    //Задача 5
+    val secondsTotal=6480
+    val hoursInSpace=secondsTotal/3600
+    val minutsInSpace=(secondsTotal % 3600)/60
+    val secondsInSpace = (secondsTotal % 3600) % 60
+    println("%02d:%02d:%02d".format(hoursInSpace,minutsInSpace,secondsInSpace))
+
+
+
 }
